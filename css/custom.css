@@ -1,0 +1,20 @@
+/* Slide In From The Top Option */
+
+.header-2 {
+   transform: translatey(-80px);
+   -moz-transition: all .3s ease!important;
+   -webkit-transition: all .3s ease!important;
+   transition: all .3s ease!important;
+  }
+  
+  
+  .elementor-sticky--effects.header-2  {
+   height: auto!important;
+   transform: translatey(0px);
+  }
+  
+  .elementor-sticky--effects.header-1 {
+   display: none!important;
+  }
+  
+  /* End Of Slide In From The Top Option */
